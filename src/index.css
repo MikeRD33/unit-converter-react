@@ -19,6 +19,7 @@ h1,h2,h3,p{
 
 header{
   width: 60%;
+  min-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,6 +78,7 @@ button:active{
 
 section{
   width: 60%;
+  min-width: 400px;
   padding: 40px 10px;
   display: flex;
   flex-direction: column;
