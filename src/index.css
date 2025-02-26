@@ -1,0 +1,110 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+body{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: content-box;
+  background-color: rgb(42, 42, 42);
+  font-family: "Inter", serif;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,p{
+  
+  margin: 0;
+}
+
+header{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 1em;
+  margin: 0 auto;
+  margin-top: 3em;
+  background-color: rgb(145, 68, 233);
+  color: white;
+  padding: 10px 10px;
+  
+}
+input, button{
+  width: 70px;
+  font-family:inherit;
+  text-align: center;
+ 
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+  height: 40px;
+  background-color: transparent;
+  border:2px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  font-size: 2rem;
+  color: white;
+  
+}
+
+input::placeholder{
+  color: aliceblue;
+  opacity: 0.5;
+}
+
+button{
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 3em;
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.02);
+}
+button:active{
+  transform: scale(1);
+}
+
+
+section{
+  width: 60%;
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto ;
+  gap: 2em;
+  background-color: whitesmoke;
+  text-align: center;
+  color: rgb(100, 57, 129);
+
+
+}
+
+p{
+  color: black;
+  font-size: 0.9rem;
+}
+
+.box{
+  width: 70%;
+  border-radius: 5px;
+  padding: 1em;
+  background-color: white;
+  
+}
+.box h1 {
+  font-size: 1.2rem;
+  margin-bottom:0.6em;
+}
+
